@@ -106,8 +106,7 @@ print("mean squared error metric:",mean_squared_error(y_test, y_pred)) #to do
 import graphviz
 from sklearn import tree
 dot_data = tree.export_graphviz(reg_tree, out_file=None, 
-                                feature_names=feature_cols,  
-                                class_names=['0', '1'],
+                                feature_names=feature_cols,
                                 filled=True)
 
 # Draw graph
